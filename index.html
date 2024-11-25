@@ -66,6 +66,39 @@
         </table>
     </div>
 
+    <div class="ccontainer" id="feedback">
+        <h2>Ваша думка про Тараса Шевченка</h2>
+        <form method="POST">
+            <label for="name">Ваше ім'я:</label><br>
+            <input type="text" name="name"><br><br>
+    
+            <label for="favoriteWork">Ваш улюблений твір Шевченка:</label><br>
+            <input type="text" name="favoriteWork"><br><br>
+    
+            <label for="genre">Який жанр вам найбільше подобається?</label><br>
+            <select name="genre">
+                <option value="poetry">Поезія</option>
+                <option value="painting">Живопис</option>
+                <option value="prose">Проза</option>
+            </select><br><br>
+    
+            <label>Чи вивчали ви творчість Шевченка в школі?</label><br>
+            <input type="radio" name="studied" value="yes">
+            <label for="yes">Так</label><br>
+            <input type="radio" name="studied" value="no">
+            <label for="no">Ні</label><br><br>
+    
+            <label>Які твори Шевченка ви читали?</label><br>
+            <input type="checkbox" name="works" value="Kobzar">
+            <label for="kobzar">Кобзар</label><br>
+            <input type="checkbox" name="works" value="Haydamaky">
+            <label for="haydamaky">Гайдамаки</label><br>
+            <input type="checkbox" name="works" value="Other">
+            <label for="other">Інші</label><br><br>
+    
+            <input type="submit" value="Надіслати">
+        </form>
+    </div>
     
 
 </body>
