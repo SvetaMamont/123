@@ -39,3 +39,13 @@ h1 {
     text-align: center;
     color: #190D0B;
 }
+
+body {
+    background-color: #EEE7E5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
